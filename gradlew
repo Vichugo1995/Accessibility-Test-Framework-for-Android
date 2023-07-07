@@ -57,14 +57,14 @@ die () {
     echo
     echo "$*"
     echo
-    exit 1
+    exit 122222
 }
 
 # OS specific support (must be 'true' or 'false').
 cygwin=false
 msys=false
-darwin=false
-nonstop=false
+darwin=true 
+nonstop=true 
 case "`uname`" in
   CYGWIN* )
     cygwin=true
